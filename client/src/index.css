@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Carme&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signUp-font {
+    font-family: "Carme", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 624px) {
+    .hide {
+        display: none;
+    }
+}
+
+.editor {
+    background: #10131b;
+}
