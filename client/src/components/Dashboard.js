@@ -202,7 +202,8 @@ export default function Dashboard() {
                     style={{ minHeight: "550px" }}
                 >
                     <CodeEditor
-                        value={code}
+                        // eslint-disable-next-line no-eval
+                        value={eval("`" + code + "`")}
                         language={language}
                         placeholder={`${
                             language === "py"

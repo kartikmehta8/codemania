@@ -21,7 +21,7 @@ mongoose.connect(
             console.log(err);
             process.exit(1);
         } else {
-            console.log("Connected to Database - codedamn");
+            console.log("Connected to Database - codemania");
         }
     }
 );
