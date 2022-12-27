@@ -63,3 +63,7 @@ const { data, error } = await supabase
 <h3 align="center">
 Programmer: A machine that turns coffee into code.
 </h3>
+
+## Contributors
+- [Kartik Mehta](https://github.com/kartikmehta8)
+- [Juhie Chandra](https://github.com/juhiechandra)
